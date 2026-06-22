@@ -38,7 +38,7 @@ Validate a release target before installing or updating:
 ```bash
 paul install-check
 paul install-check --stable
-paul install-check --tag v0.12.0
+paul install-check --tag v1.0.0
 ```
 
 Update an existing CLI install in place:
@@ -46,7 +46,7 @@ Update an existing CLI install in place:
 ```bash
 paul update
 paul update --stable
-paul update --tag v0.12.0
+paul update --tag v1.0.0
 ```
 
 Configure a profile with a Personal Access Token:
