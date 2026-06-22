@@ -38,7 +38,7 @@ Validate a release target before installing or updating:
 ```bash
 paul install-check
 paul install-check --stable
-paul install-check --tag v0.10.0
+paul install-check --tag v0.12.0
 ```
 
 Update an existing CLI install in place:
@@ -46,7 +46,7 @@ Update an existing CLI install in place:
 ```bash
 paul update
 paul update --stable
-paul update --tag v0.10.0
+paul update --tag v0.12.0
 ```
 
 Configure a profile with a Personal Access Token:
@@ -71,7 +71,7 @@ Remember:
 - Use `--app-url`; `--api-url` is intentionally unsupported.
 - `paul profile set` reports `resolvedApiUrl` and `apiResolutionSource`.
 - Use `PAUL_API_URL` only as a one-off troubleshooting override.
-- `paul update` defaults to the latest prerelease/current channel. Use `--stable` for the latest stable release or `--tag` for an exact release.
+- `paul update` defaults to the latest normal release. Use `--tag` for an exact release.
 - Use `--repo <owner/repo>` only for alternate release buckets or private test releases.
 - If an install or update check reports a GitHub `404 Not Found`, confirm the public release repository exists, has an initialized default branch, and includes the requested release tag and assets. Do not set a GitHub token for normal Paul CLI install or update flows.
 - Use PATs for CLI access. `read_write` covers queue, work-item, and calendar operations. `admin` is only needed for admin endpoints.
