@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paul CLI"
+  short_description: "Operate Paul safely through the paul CLI"
+  default_prompt: "Use $paul to operate Paul through the paul CLI and choose the right work-item, workflow, calendar, or settings command."
